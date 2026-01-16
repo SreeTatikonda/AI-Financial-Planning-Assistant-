@@ -1,20 +1,20 @@
-# 🤖 AI Financial Planning Agent
+# AI Financial Planning Agent
 
 A **zero-cost**, privacy-first AI-powered financial planning assistant that helps you manage budgets, track goals, and improve your financial health.
 
-## ✨ Features
+##  Features
 
 ### Phase 1 (MVP - Current)
-- 📊 **Budget Analysis**: Upload transactions, get intelligent categorization and insights
-- 🎯 **Goal-Based Saving**: Set financial goals and get personalized savings plans
-- 💯 **Financial Health Score**: Comprehensive assessment of your financial wellness
+- **Budget Analysis**: Upload transactions, get intelligent categorization and insights
+- **Goal-Based Saving**: Set financial goals and get personalized savings plans
+- **Financial Health Score**: Comprehensive assessment of your financial wellness
 
 ### Phase 2 (Coming Soon)
-- 📈 Investment Portfolio Analysis
-- 🏖️ Retirement Planning with Monte Carlo simulations
-- 💰 Tax Optimization Recommendations
+- Investment Portfolio Analysis
+- Retirement Planning with Monte Carlo simulations
+- Tax Optimization Recommendations
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 Frontend (React + Vite)
@@ -26,7 +26,7 @@ LLM Layer (Gemini Flash 2.0 Free Tier / Local Ollama)
 Storage (Browser IndexedDB + SQLite)
 ```
 
-## 🚀 Tech Stack
+## Tech Stack
 
 ### Frontend
 - **Framework**: React 18 + Vite
@@ -54,14 +54,14 @@ Storage (Browser IndexedDB + SQLite)
 - **Backend**: Vercel Serverless Functions
 - **Database**: Browser IndexedDB
 - **LLM**: Gemini Flash 2.0 (free tier)
-- **Cost**: $0/month ✅
+- **Cost**: $0/month 
 
 ### Option B: Fully Local
 - Run everything on your machine using Docker Compose
 - 100% private, no external dependencies
 - Requires: Docker, Ollama, 8GB RAM
 
-## 📦 Installation
+## Installation
 
 ### Prerequisites
 - Node.js 18+
@@ -138,7 +138,7 @@ VITE_API_URL=http://localhost:8000
 VITE_USE_LOCAL_STORAGE=true
 ```
 
-## 📚 Project Structure
+## Project Structure
 
 ```
 ai-finance-agent/
@@ -165,7 +165,7 @@ ai-finance-agent/
 └── docker-compose.yml
 ```
 
-## 🎯 Usage Examples
+## Usage Examples
 
 ### 1. Budget Analysis
 ```python
@@ -190,7 +190,7 @@ GET /api/health-score
 # Returns 0-100 score with breakdown and recommendations
 ```
 
-## 🧪 Testing
+## Testing
 
 ```bash
 # Backend tests
@@ -202,26 +202,26 @@ cd frontend
 npm test
 ```
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please read [CONTRIBUTING.md](docs/CONTRIBUTING.md) for guidelines.
 
-## 📄 License
+## License
 
 MIT License - see [LICENSE](LICENSE) for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Built with React, FastAPI, and Google Gemini
 - Financial knowledge base curated from IRS guidelines, investopedia, and financial planning best practices
 - Inspired by the need for accessible, privacy-first financial planning tools
 
-## 📞 Support
+## Support
 
-- **Issues**: [GitHub Issues](https://github.com/yourusername/ai-finance-agent/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/yourusername/ai-finance-agent/discussions)
+- **Issues**: [GitHub Issues](https://github.com/SreeTatikonda/ai-finance-agent/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/SreeTatikonda/ai-finance-agent/discussions)
 
-## 🗺️ Roadmap
+## Roadmap
 
 - [x] Budget Analysis
 - [x] Goal Tracking
@@ -235,4 +235,4 @@ MIT License - see [LICENSE](LICENSE) for details.
 
 ---
 
-**Made with ❤️ for financial wellness**
+**Made for Financial planning**

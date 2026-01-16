@@ -47,7 +47,7 @@ Storage (Browser IndexedDB + SQLite)
 - **LLM**: Google Gemini Flash 2.0 (1500 requests/day free)
 - **Local Option**: Llama 3.1 8B via Ollama
 
-## 💸 Zero-Cost Deployment
+## Zero-Cost Deployment
 
 ### Option A: Serverless (Recommended)
 - **Frontend**: Vercel (Free tier - unlimited bandwidth)
